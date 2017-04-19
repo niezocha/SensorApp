@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
                     setUpStartPosition();
                 }
                 float newX = startX+startX*xPositopn;
-                float newY = startY+startY*yPositopn;
+                float newY = startY-startY*yPositopn;
+                //"-", bo start osi xy jest w ekranach telefonów w górnym lewym rogu, ani w dolnym lewym jak wskazywała by logika
                 redBall.setX(newX);
                 redBall.setY(newY);
             }
