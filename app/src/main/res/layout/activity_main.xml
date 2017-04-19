@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.zofia.sensorapp.MainActivity">
 
+    <include layout="@layout/vertical_scale"/>
+    <include layout="@layout/horizontal_scale"/>
     <View
         android:id="@+id/red_ball"
         android:background="@drawable/ball"
